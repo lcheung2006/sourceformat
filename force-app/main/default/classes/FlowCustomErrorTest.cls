@@ -5,7 +5,7 @@ public class FlowCustomErrorTest {
     static void testFlowCustomError() {
         FlowCustomError.Inputs[] inputs = new FlowCustomError.Inputs[]{};
         FlowCustomError.Inputs input = new FlowCustomError.Inputs();
-        input.message = 'Error message from Apex test.';
+        input.message = 'Error message from Apex test23.';
         inputs.add(input);
 
         Test.startTest();
