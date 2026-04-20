@@ -3,7 +3,7 @@ public class FlowCustomError {
     
     public class CustomException extends Exception {}
     
-    @InvocableMethod(label='Throw Custom Flow Exception')
+    @InvocableMethod(label='Throw Custom Flow Exception to Test')
     public static void throwCustomFlowException(Inputs[] input){
         throw createCustomException(input[0].message);
     }
