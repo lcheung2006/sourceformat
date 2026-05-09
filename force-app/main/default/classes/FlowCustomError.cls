@@ -7,7 +7,7 @@ public class FlowCustomError {
     public static void throwCustomFlowException(Inputs[] input){
         throw createCustomException(input[0].message);
     }
-    
+    /*testing the apex class US*/
     public class Inputs{
         @InvocableVariable(label='Error message')
         public string message;
